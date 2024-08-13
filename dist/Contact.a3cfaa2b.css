@@ -1,0 +1,27 @@
+.accordian {
+  cursor: pointer;
+  border: 2px solid #000;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 50px;
+  margin: 2rem auto;
+  display: flex;
+}
+
+.accordian-second {
+  border: 2px solid #000;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  margin: 2rem auto;
+  display: flex;
+}
+
+.accordian > p, .accordian-second {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Contact.a3cfaa2b.css.map */

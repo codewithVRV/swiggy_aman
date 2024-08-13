@@ -1,0 +1,31 @@
+
+
+
+.item-category {
+    border-bottom: 5px solid #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    .item-category-left {
+      width: 80%;
+      .item-name {
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .item-price {
+        padding: 10px 0;
+        font-weight: 600;
+      }
+      .item-description {
+        padding: 10px 0;
+      }
+    }
+    .item-category-right {
+      width: 20%;
+      > img {
+        width: 100%;
+      }
+    }
+  }
+  
